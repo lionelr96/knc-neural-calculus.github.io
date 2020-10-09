@@ -1,62 +1,199 @@
 <!DOCTYPE html>
-<html>
-  <meta charset="UTF-8">
-<head>
-	<title>KNC -- @miv</title>
-  <link rel="stylesheet" href="../style.css">
-</head>
-<body style="padding-left: 20%;padding-right: 20%">
-  <a href="../index.html">KNC Home</a>
-  <center>
-		<h1>Michael Ivanitskiy<br></h1>
-    <h2><a href="mailto:miv@knc.ai">miv@knc.ai</a></h2>
-    <h2>Collaborator</h2>
-  </center>
+<html lang="en">
 
-  <p>
-    I graduated from the University of Michigan in April 2020 with a math degree and a CS minor. I'm currently taking a gap year to finish and publish some work. I intend to pursue a graduate degree in computational neuroscience in the future. In general, I'm interested in how biological neural networks learn. These days I'm working on novel algorithms for training SNNs, with a soft spot for the HH model ❤. I've recently written a paper with James Hazeden (he should have a page on this site, James if you see this bug me to link you) and Daniel Forger on using SGD to train a layered network of HH neurons. That may or may not appear at a <a href="https://beyondbackprop.github.io/">NeurIPS Workshop</a>. I'll need to update on how that goes. After that I'm hoping to work on something related to training using <a href="https://www.biorxiv.org/content/10.1101/738385v4.full.pdf">eligibility propogation</a>, neuromodulated STDP, or <a href="https://neurophysics.ucsd.edu/courses/physics_171/annurev.neuro.28.061604.135703.pdf">dendritic morphology</a>. I've also got some work in game theory and combinatorics that has been "almost done" for months now.
-  </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="description" name="description" />
+    <meta name="google" content="notranslate" />
+    <meta content="Mashup templates have been developped by Orson.io team" name="author" />
 
-  <p>
-    I also have a bunch of random tools and stuff up on my <a href="https://github.com/mivanit">github</a>. I've previously done some work in simulating connectome generation, neuromodulation of networks, neuroevolution, and 
-    <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11314/113143K/Bladder-wall-segmentation-using-U-net-based-deep-learning/10.1117/12.2551343.short?SSO=1">ML for biological image segmentation</a>.
-    If you're interested in hearing more about any of these, I'm more than happy to rant about them over email.
-  </p>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
 
-  <h2>Links:</h2>
-  <ul>
-    <li>email: <a href="miv@knc.ai">miv@knc.ai</a> or <a href="mivanits@umich.edu">mivanits@umich.edu</a>. I check both, I promise</li>
-    <li><a href="https://github.com/mivanit">github</a></li>
-    <li><a href="http://www-personal.umich.edu/~mivanits/">personal website</a>(not currently up lol)</li>
-    <li><code>@mivanit:matrix.org</code></li>
-  </ul>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png" />
+    <link href="./assets/favicon.ico" rel="icon" />
 
-  <h2>Projects</h2>
-  <ul id="projects">
-    <li>
-      <a href="https://github.com/knc-neural-calculus/axon-growth-sim">Axon Growth Simulation:</a><br>
-      Generating neural connectomes by simulating diffusion of numerous neurite growth factors across a network, with neuron activity varying depending on the incoming connections. <br>
-      <img src="img/axon-growth.png" alt="axons grown across a chemical gradient" class="center" >
-    </li>
-  </ul>
+    <title>Title page</title>
 
-  <h2>Publications:</h2>
-  <ul>
-    <li>(to be updated with my work on training Hodgkin Huxley neurons)</li>
-    <li>
-      <b>U-net CT scan segmentation:</b> 
-      built a system for using the U-net architecture to segment bladders and other organs. Tried to teach it to understand topological constraints by injecting stuff into the loss function, with limited success.
-      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11314/113143K/Bladder-wall-segmentation-using-U-net-based-deep-learning/10.1117/12.2551343.short?SSO=1">published in SPIE proceedings</a>.
-    </li>
-    <li>
-      <b>analyzing 4d voxel cell interaction data</b> 
-      ...I ended up doing most of it by hand. I tried to automate it to some extent, but this work was done in 2016 and I was not very experienced. Did some statistical analysis of all the data I gathered. I'll be honest, my involvement with the biological side of things was minimal.
-      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11314/113143K/Bladder-wall-segmentation-using-U-net-based-deep-learning/10.1117/12.2551343.short?SSO=1">Published in Fronteirs in Immunology</a>. In a weird turn of events, that U-net architecture I built ended up being used for a somewhat similar cell-segmentation task by <a href="https://johnmday.com">John M Day</a>.
-    </li>
-  </ul>
+    <link href="../main.3f6952e4.css" rel="stylesheet" />
+  </head>
 
-  <h2>Talks & other things</h2>
-  (Email me for my CV)
+  <body class="">
+    <div id="site-border-left"></div>
+    <div id="site-border-right"></div>
+    <div id="site-border-top"></div>
+    <div id="site-border-bottom"></div>
+    <!-- Add your content of header -->
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-default">
+        <div class="container">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-</body>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../index.html" title="">01 : Home</a></li>
+              <li><a href="../projects.html" title="">02 : Projects</a></li>
+              <li><a href="../members.html" title="">03 : Members</a></li>
+              <li><a href="../join.html" title="">04 : Join</a></li>
+              <li><a href="https://github.com/knc-neural-calculus" title="">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="section-container-spacer text-center">
+              <h1 class="h2">01 : About us</h1>
+            </div>      
+
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                  <div class="col-xs-12 col-md-6">
+                    <h2>Michael I. Ivanitsky</h2>
+                    <h3>About me</h3>
+                    <p>
+                      I graduated from the University of Michigan in April 2020
+                      with a math degree and a CS minor. I'm currently taking a
+                      gap year to finish and publish some work. I intend to
+                      pursue a graduate degree in computational neuroscience in
+                      the future. In general, I'm interested in how biological
+                      neural networks learn. These days I'm working on novel
+                      algorithms for training SNNs, with a soft spot for the HH
+                      model ❤. I've recently written a paper with James Hazeden
+                      (he should have a page on this site, James if you see this
+                      bug me to link you) and Daniel Forger on using SGD to
+                      train a layered network of HH neurons. That may or may not
+                      appear at a
+                      <a href="https://beyondbackprop.github.io/">NeurIPS Workshop</a>. I'll need to update on how that
+                      goes. After that I'm
+                      hoping to work on something related to training using
+                      <a href="https://www.biorxiv.org/content/10.1101/738385v4.full.pdf">eligibility propogation</a>,
+                      neuromodulated STDP, or
+                      <a href="https://neurophysics.ucsd.edu/courses/physics_171/annurev.neuro.28.061604.135703.pdf">dendritic
+                        morphology</a>. I've also got some work in game theory and
+                      combinatorics that has been "almost done" for months
+                      now.<br /><br />
+
+                      I also have a bunch of random tools and stuff up on my
+                      github. I've previously done some work in simulating
+                      connectome generation, neuromodulation of networks,
+                      neuroevolution, and ML for biological image segmentation.
+                      If you're interested in hearing more about any of these,
+                      I'm more than happy to rant about them over email.
+                    </p>
+                    <h3>Projects</h3>
+                    <p>
+                      <a href="https://github.com/knc-neural-calculus/axon-growth-sim">Axon Growth Simulation:</a><br />
+                      Generating neural connectomes by simulating diffusion of
+                      numerous neurite growth factors across a network, with
+                      neuron activity varying depending on the incoming
+                      connections. <br />
+                      <img src="img/axon-growth.png" alt="axons grown across a chemical gradient" class="center" />
+                    </p>
+
+                    <h3>Links</h3>
+                    <p>
+                      <a href="http://www-personal.umich.edu/~mivanits/">Personal Website</a>(currently not up lol)
+                    </p>
+                    <p>
+                      Email: <a href="miv@knc.ai">miv@knc.ai</a> or <a href="mivanits@umich.edu">mivanits@umich.edu</a>.
+                      I check both, I promise
+                    </p>
+                    <p>
+                      <a href="https://github.com/mivanit">GitHub</a>
+                    </p>
+
+                    <h3>Publications</h3>
+                    <p>
+                      <ul>
+                        <li>(to be updated with my work on training Hodgkin Huxley neurons)</li>
+                        <li>
+                          <b>U-net CT scan segmentation:</b>
+                          built a system for using the U-net architecture to segment bladders and other organs. Tried to
+                          teach it to understand topological constraints by injecting stuff into the loss function, with
+                          limited success.
+                          <a
+                            href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11314/113143K/Bladder-wall-segmentation-using-U-net-based-deep-learning/10.1117/12.2551343.short?SSO=1">published
+                            in SPIE proceedings</a>.
+                        </li>
+                        <li>
+                          <b>analyzing 4d voxel cell interaction data</b>
+                          ...I ended up doing most of it by hand. I tried to automate it to some extent, but this work
+                          was done in 2016 and I was not very experienced. Did some statistical analysis of all the data
+                          I gathered. I'll be honest, my involvement with the biological side of things was minimal.
+                          <a
+                            href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11314/113143K/Bladder-wall-segmentation-using-U-net-based-deep-learning/10.1117/12.2551343.short?SSO=1">Published
+                            in Fronteirs in Immunology</a>. In a weird turn of events, that U-net architecture I built
+                          ended up being used for a somewhat similar cell-segmentation task by <a
+                            href="https://johnmday.com">John M Day</a>.
+                        </li>
+                      </ul>
+                    </p>
+                    <h3>Talks & other things</h3>
+                    <p>
+                      (Email me for my CV)
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-md-6">
+                    <img src="../assets/images/mikhail.jpg" class="img-responsive" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>         
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-container text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              © UNTITLED | Website created with
+              <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup
+                Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        navActivePage();
+      });
+    </script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-XXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script>
+
+-->
+    <script type="text/javascript" src="./main.70a66962.js"></script>
+  </body>
+
 </html>
